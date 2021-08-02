@@ -1,0 +1,99 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    background-color:#111;
+
+}
+h1{
+    font-size: 3rem;
+    font-weight: 50;
+    margin: 1rem 0 3rem;
+    text-align:center;
+    color:#fff;
+    font-family: 'Hind', sans-serif;
+    
+}
+.styling{
+    font-weight: 800;
+    color: orangered;
+}
+
+.container{
+
+    width: 520px;
+    margin:0px auto;
+    margin-top: 50px;
+    padding-bottom: 5px; 
+     background-color:grey;
+     
+
+}
+ #new_item{
+    width: 100%;
+    padding: 10px 0px;
+
+    
+}
+#addToDo{
+    align-items: inherit;
+    display:flex;
+    padding: 7px;
+    border-radius: 36px;
+    outline:#111;
+    border: 2px solid #fff ;
+    background-color: orangered;
+    color: #fff;
+    margin: 10px;
+    cursor: pointer;
+
+}
+#list_item{
+    list-style: none;
+    padding: 0px;
+    margin-top: 20px;
+    background-color:grey;
+    padding: 5px 10px;
+}
+#list_item li {
+    margin: 5px -5px;
+    background-color: aliceblue;
+    padding: 8px 2px;
+    border-radius: 2px;
+}
+#list_item li:hover{
+ background-color: orange;
+}
+#list_item li button{
+    float: right;
+    padding: 0px 5px;
+    margin-right: 8px;
+    background-color: orangered;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    border: 2px solid grey ;
+    border-radius: 3px;
+
+}
+input[type=checkbox]{
+    margin:2px 5px;
+}
+
+#clearAllList{
+display:flex;
+}
+button[type="button"]{
+        text-align: center;
+        margin: auto;
+        margin-top: 10px;
+        background-color: orangered;
+        color: #fff;
+        border: 2px solid #fff ;
+        border-radius: 3px;
+        padding: 5px 15px;
+}
+
